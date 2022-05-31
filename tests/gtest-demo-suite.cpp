@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
 
-TEST(demo_suite, basic)
+TEST(gtest_demo_suite, passes)
 {
 }
