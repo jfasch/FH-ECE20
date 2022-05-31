@@ -2,5 +2,14 @@ ADD_EXECUTABLE(
   run-tests
 
   gtest-demo-suite.cpp
+  c++-school-suite.cpp
 )
-TARGET_LINK_LIBRARIES(run-tests gtest_main)
+
+target_link_libraries(
+  run-tests
+
+  PUBLIC
+
+  gtest_main
+  c++-school
+)
