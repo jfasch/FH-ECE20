@@ -10,5 +10,6 @@ if (${CMAKE_COMPILER_IS_GNUCC})
 endif()
 
 add_subdirectory(googletest)
+add_subdirectory(bin)
 add_subdirectory(src)
 add_subdirectory(tests)
