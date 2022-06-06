@@ -1,9 +1,13 @@
 #ifndef SENSORS_CONSTANT_SENSOR_H
 #define SENSORS_CONSTANT_SENSOR_H
 
+/** Constant sensor (for testing pr=urposes) */
 class ConstantSensor
 {
 public:
+    /** Constructor
+     * @param temperature The temperature to return at get_temperature()
+     */
     ConstantSensor(double temperature)
     {
         _temperature = temperature;
