@@ -1,5 +1,5 @@
- add_library(
-   sensors STATIC 
+add_library(
+   sensors STATIC
 
    constant-sensor.h
    constant-sensor.cpp

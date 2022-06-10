@@ -1,7 +1,7 @@
 #ifndef SENSORS_CONSTANT_SENSOR_H
 #define SENSORS_CONSTANT_SENSOR_H
 
-/** Constant sensor (for testing pr=urposes) */
+/** Constant sensor (for testing purposes) */
 class ConstantSensor
 {
 public:
@@ -13,10 +13,7 @@ public:
         _temperature = temperature;
     }
 
-    double get_temperature()
-    {
-        return _temperature;
-    }
+    double get_temperature();
 
 private:
     double _temperature;
