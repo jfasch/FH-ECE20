@@ -1,7 +1,9 @@
  add_library(
    c++-school STATIC 
 
-   some-function.h
-   some-function.cpp 
+   point.h
+   point.cpp
+
+   copy-good.h
 )
 target_include_directories(c++-school PUBLIC .)

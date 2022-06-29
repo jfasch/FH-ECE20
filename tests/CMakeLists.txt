@@ -5,6 +5,11 @@ ADD_EXECUTABLE(
   c++-string-suite.cpp
   constant-sensor-suite.cpp
   w1-sensor-suite.cpp
+
+  point-suite.cpp
+  references-suite.cpp
+
+  copy-good-suite.cpp
 )
 
 target_link_libraries(
