@@ -10,6 +10,8 @@ ADD_EXECUTABLE(
   references-suite.cpp
 
   copy-good-suite.cpp
+
+  my-string-suite.cpp
 )
 
 target_link_libraries(
